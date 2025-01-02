@@ -15,32 +15,32 @@ function Service() {
             </div>
             <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
               <ServiceItem
-                imageSrc="public/favicon.png"
+                imageSrc="/favicon.png"
                 title="Packaging Solution"
                 description="Layanan konsultasi, sampel, dan produksi yang terintegrasi."
               />
               <ServiceItem
-                imageSrc="public/favicon.png"
+                imageSrc="/favicon.png"
                 title="Custom Desain & Ukuran"
                 description="Kustomisasi kemasan produk sesuai kebutuhan bisnis. Cetak kemasan custom dengan layanan after sales responsif."
               />
               <ServiceItem
-                imageSrc="public/favicon.png"
+                imageSrc="/favicon.png"
                 title="Perusahaan Terdaftar"
                 description="Perusahaan berbadan hukum dan terdaftar secara resmi."
               />
               <ServiceItem
-                imageSrc="public/favicon.png"
+                imageSrc="/favicon.png"
                 title="Konsultasi dan Order"
                 description="Customer melakukan konsultasi dan membuat pesanan dengan mengirimkan desain, spesifikasi, serta contoh kemasan produk yang akan dibuat."
               />
               <ServiceItem
-                imageSrc="public/favicon.png"
+                imageSrc="/favicon.png"
                 title="Proofing dan Produksi"
                 description="Tim Bungkus melakukan proses produksi massal kemasan custom sesuai dengan pesanan, setelah melalui proofing dan persetujuan customer."
               />
               <ServiceItem
-                imageSrc="public/favicon.png"
+                imageSrc="/favicon.png"
                 title="Pengiriman"
                 description="Kemasan yang selesai diproduksi akan kami kirimkan secara langsung kepada customer. Tersedia layanan purna jual dan klaim hasil produk (S&K belaku)."
               />
