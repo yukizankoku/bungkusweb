@@ -1,0 +1,94 @@
+[
+  { 
+    "id": 1, 
+    "name": "Standard Soft Box", 
+    "slug": "standard-soft-box", 
+    "categoryId": 1, 
+    "image": "/packaging/softbox-standar.jpeg" 
+  },
+  { 
+    "id": 2, 
+    "name": "Window Soft Box", 
+    "slug": "window-soft-box", 
+    "categoryId": 1, 
+    "image": "/packaging/softbox-standar.jpeg"
+  },
+  { "id": 3, 
+    "name": "Gable Soft Box", 
+    "slug": "gable-soft-box", 
+    "categoryId": 1, 
+    "image": "/packaging/gable.jpeg" 
+  },
+  { "id": 4, 
+    "name": "Tray Soft Box", 
+    "slug": "tray-soft-box", 
+    "categoryId": 1, 
+    "image": "/packaging/softbox-standar.jpeg" 
+  },
+  { "id": 5, 
+    "name": "Paper Food Pail", 
+    "slug": "paper-food-pail", 
+    "categoryId": 1, 
+    "image": "/packaging/softbox-standar.jpeg" 
+  },
+  { "id": 6, 
+    "name": "Paper Bowl", 
+    "slug": "paper-bowl", 
+    "categoryId": 1, 
+    "image": "/packaging/paper-bowl.jpeg" 
+  },
+  { "id": 7, 
+    "name": "Paper Lunch Box", 
+    "slug": "paper-lunch-box", 
+    "categoryId": 1,
+    "image": "/packaging/softbox-standar.jpeg" 
+  },
+  { "id": 8, 
+    "name": "Paper Cup", 
+    "slug": "paper-cup", 
+    "categoryId": 1, 
+    "image": "/packaging/paper-cup.jpeg" 
+  },
+  { "id": 9, 
+    "name": "Mailer", 
+    "slug": "mailer", 
+    "categoryId": 1, 
+    "image": "/packaging/softbox-standar.jpeg" 
+  },
+  { "id": 10, 
+    "name": "Sliding Soft Box", 
+    "slug": "sliding-soft-box", 
+    "categoryId": 1, 
+    "image": "/packaging/softbox-standar.jpeg" 
+  },
+  { "id": 11, 
+    "name": "Hard Box 2 Pieces", 
+    "slug": "hard-box-2-pieces", 
+    "categoryId": 2, 
+    "image": "/packaging/softbox-standar.jpeg" 
+  },
+  { "id": 12, 
+    "name": "Hard Box 3 Pieces", 
+    "slug": "hard-box-3-pieces", 
+    "categoryId": 2, 
+    "image": "/packaging/softbox-standar.jpeg" 
+  },
+  { "id": 13, 
+    "name": "Sliding Hard Box", 
+    "slug": "sliding-hard-box", 
+    "categoryId": 2, 
+    "image": "/packaging/softbox-standar.jpeg" 
+  },
+  { "id": 14, 
+    "name": "Magnet Hard Box", 
+    "slug": "magnet-hard-box", 
+    "categoryId": 2, 
+    "image": "/packaging/softbox-standar.jpeg" 
+  },
+  { "id": 15, 
+    "name": "Corrugated Box", 
+    "slug": "corrugated-box",
+    "categoryId": 3, 
+    "image": "/packaging/category/corrugated.jpeg" 
+  }
+]
