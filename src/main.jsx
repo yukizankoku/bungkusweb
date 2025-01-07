@@ -8,6 +8,7 @@ import About from './components/pages/About.jsx'
 import Contact from './components/pages/Contact.jsx'
 import Category from './components/pages/Category.jsx'
 import Products from './components/pages/Product.jsx'
+import Portfolio from './components/pages/Portfolios.jsx'
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact/>
+  },
+  {
+    path: "/portfolio",
+    element: <Portfolio/>
   },
   {
     path: "/category/:slug",

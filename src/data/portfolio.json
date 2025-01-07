@@ -1,0 +1,17 @@
+[
+    { 
+      "id": 1, 
+      "name": "Soft Box",
+      "image": "/packaging/category/softbox.jpeg"
+    },
+    { 
+      "id": 2, 
+      "name": "Hard Box",
+      "image": "/packaging/category/hardbox.jpeg"
+    },
+    { 
+      "id": 3, 
+      "name": "Currogated Box",
+      "image": "/packaging/category/corrugated.jpeg"
+    }
+  ]
