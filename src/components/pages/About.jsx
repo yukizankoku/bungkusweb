@@ -1,5 +1,6 @@
 import Navbar from '../navbar.jsx';
 import Footer from '../footer.jsx';
+import data from '../../data/company-profile.json';
 
 function AboutSection() {
   return (
@@ -21,18 +22,18 @@ function About() {
           <div className="max-h-80">
             <img 
               src="/logo.png" 
-              alt="Image" 
+              alt="Bungkus Logo" 
               className="rounded-md object-cover w-full h-full" 
             />
           </div>
           
           {/* Content Section */}
           <div>
-            {/* <h2 className="text-3xl font-extrabold text-purple-700 mb-4">
-              Immerse Yourself in Creativity
-            </h2> */}
+            <h2 className="text-3xl font-extrabold text-purple-700 mb-4">
+              Kami Hadir Untuk Menyediakan Solusi Kemasan Inovatif yang Menonjolkan Identitas Produk Anda
+            </h2>
             <p className="text-gray-600 text-sm leading-6">
-             Bungkus™ (PT. Asia Kreasi Solusi) adalah blablabla
+              {data.about}
             </p><br />
             <p>Kami Menawarkan</p>
             <ul className="list-disc text-sm text-gray-600 space-y-2 pl-4 mt-6">

@@ -40,6 +40,14 @@ function Category() {
           </Link>
         ))}
       </div>
+      <div className="flex justify-center items-center mt-5">
+        <Link
+          to="/"
+          className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded shadow hover:shadow-lg transition duration-200"
+        >
+          Back
+        </Link>
+      </div>
     </div>
   );
 }

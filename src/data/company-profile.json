@@ -1,10 +1,11 @@
-[
-    { 
-    "id": 1, 
-    "name": "Bungkus",
-    "about": "",
-    "address": "Jl. Raya Kuta",
-    "phone": "08123456789",
-    "email": "info@bungkus.com"
-    }
-]
+{ 
+"id": 1, 
+"name": "Bungkus",
+"about": "Bungkus™ (PT. Asia Kreasi Solusi) adalah blablabla",
+"address": "Jl. Raya Pondok Aren Komplek Puri Bintaro Hijau Blok F9 no. 3",
+"phone": "0817846734",
+"email": "ozi.bungkus@gmail.com",
+"instagram":"",
+"facebook": "",
+"linkedIn": ""
+}

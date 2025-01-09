@@ -1,17 +1,22 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Navbar from "../navbar";
+import Footer from "../footer";
+import portfolio from "../../data/portfolio.json";
+
+function PortfolioSection() {
+  return(
+    <div>
+      <Navbar/>
+      <Portfolio/>
+      <Footer/>
+    </div>
+  )
+}
 
 function Portfolio() {
     const [selectedImage, setSelectedImage] = useState(null);
-  
-    const images = [
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
-    ];
   
     return (
       <div className="portfolio">
@@ -22,7 +27,7 @@ function Portfolio() {
           >
             <img
               src={selectedImage}
-              alt="Selected"
+              alt="portfolio Selected"
               className="max-w-full max-h-full rounded-lg"
             />
           </div>
@@ -30,19 +35,27 @@ function Portfolio() {
   
         <h1 className="text-center text-3xl font-bold mb-2">Portfolio</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full mx-6">
-          {images.map((image, index) => (
+          {portfolio.map((portfolio, index) => (
             <div key={index}>
               <img
                 className="h-72 rounded-lg cursor-pointer"
-                src={image}
-                alt={`Gallery ${index + 1}`}
-                onClick={() => setSelectedImage(image)}
+                src={portfolio.image}
+                alt={portfolio.name}
+                onClick={() => setSelectedImage(portfolio.image)}
               />
             </div>
           ))}
+        </div>
+        <div className="flex justify-center items-center">
+          <Link
+            to="/"
+            className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded shadow hover:shadow-lg transition duration-200"
+          >
+            Back
+          </Link>
         </div>
       </div>
     );
   }
 
-export default Portfolio
+export default PortfolioSection

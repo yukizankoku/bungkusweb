@@ -2,16 +2,61 @@
     { 
       "id": 1, 
       "name": "Soft Box",
-      "image": "/packaging/category/softbox.jpeg"
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
     },
     { 
       "id": 2, 
       "name": "Hard Box",
-      "image": "/packaging/category/hardbox.jpeg"
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
     },
     { 
       "id": 3, 
       "name": "Currogated Box",
-      "image": "/packaging/category/corrugated.jpeg"
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+    },
+    { 
+      "id": 4, 
+      "name": "Soft Box",
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+    },
+    { 
+      "id": 5, 
+      "name": "Hard Box",
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+    },
+    { 
+      "id": 6, 
+      "name": "Currogated Box",
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+    },
+    { 
+      "id": 7, 
+      "name": "Soft Box",
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+    },
+    { 
+      "id": 8, 
+      "name": "Hard Box",
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+    },
+    { 
+      "id": 9, 
+      "name": "Currogated Box",
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+    },
+    { 
+      "id": 10, 
+      "name": "Soft Box",
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+    },
+    {
+      "id": 11, 
+      "name": "Hard Box",
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+    },
+    { 
+      "id": 12, 
+      "name": "Currogated Box",
+      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
     }
-  ]
+]

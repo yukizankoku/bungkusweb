@@ -40,7 +40,7 @@ function Clients() {
               <SwiperSlide key={index}>
                 <img
                   src={logo}
-                  alt={`Logo ${index + 1}`}
+                  alt="client logo"
                   className="h-20 w-auto mx-auto"
                 />
               </SwiperSlide>
