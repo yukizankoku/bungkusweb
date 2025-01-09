@@ -2,6 +2,18 @@ import { Button } from "flowbite-react";
 import products from "../../data/products.json";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import Navbar from "../navbar";
+import Footer from "../footer";
+
+function ProductSection() {
+  return(
+    <div>
+      <Navbar/>
+      <Product/>
+      <Footer/>
+    </div>
+  )
+}
 
 function Product() {
     const { slug } = useParams();
@@ -69,4 +81,4 @@ function Product() {
     );
   }
   
-  export default Product;
+  export default ProductSection;

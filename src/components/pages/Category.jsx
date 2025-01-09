@@ -1,7 +1,18 @@
 import categories from "../../data/categories.json";
 import products from "../../data/products.json";
 import { useParams, Link } from "react-router-dom";
+import Navbar from "../navbar";
+import Footer from "../footer";
 
+function CategorySection() {
+  return (
+    <div>
+      <Navbar />
+      <Category />
+      <Footer />
+    </div>
+  )
+}
 function Category() {
   const { slug } = useParams();
   const category = categories.find((cat) => cat.slug === slug);
@@ -52,4 +63,4 @@ function Category() {
   );
 }
 
-export default Category;
+export default CategorySection;
