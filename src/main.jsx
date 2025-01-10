@@ -6,8 +6,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ErrorPage from './components/pages/404.jsx'
 import About from './components/pages/About.jsx'
 import Contact from './components/pages/Contact.jsx'
+import Products from './components/pages/Products.jsx'
 import Category from './components/pages/Category.jsx'
-import Products from './components/pages/Product.jsx'
+import Product from './components/pages/Product.jsx'
 import Portfolio from './components/pages/Portfolios.jsx'
 
 const router = createBrowserRouter([
@@ -29,12 +30,16 @@ const router = createBrowserRouter([
     element: <Portfolio/>
   },
   {
+    path: "/products",
+    element: <Products/>
+  },
+  {
     path: "/category/:slug",
     element: <Category/>
   },
   {
     path: "/product/:slug",
-    element: <Products/>
+    element: <Product/>
   }
 ]);
 

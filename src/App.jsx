@@ -64,7 +64,7 @@ function WhatsappButton() {
             Halo! Ada yang bisa kami bantu? 😊
           </p>
           <a
-            href={`https://wa.me/${"6281234567890"}?text=Hai%20Bungkus,%20saya%20tertarik%20untuk%20membuat%20custom%20packaging`}
+            href={`https://wa.me/${data.phone.replace(/^0/, '62')}?text=Hai%20Bungkus,%20saya%20tertarik%20untuk%20membuat%20custom%20packaging`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded w-full text-center transition duration-200"

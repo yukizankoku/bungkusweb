@@ -20,7 +20,7 @@ function Footer() {
                                 <a href="#" className="hover:underline">{data.address}</a>
                             </li>
                             <li>
-                                <a href={`https://wa.me/${data.phone.replace(/^0/, '62')}?text=Hai%20Bungkus,%20saya%20tertarik%20untuk%20membuat%20custom%20packaging`} className="hover:underline">{data.phone}</a>
+                                <a href={`https://wa.me/${data.phone.replace(/^0/, '62')}?text=Hai%20Bungkus,%20saya%20tertarik%20untuk%20membuat%20custom%20packaging`} target="_blank" className="hover:underline">{data.phone}</a>
                             </li>
                             <li>
                                 <a href={`mailto:${data.email}`} target='blank' className="hover:underline">{data.email}</a>
