@@ -1,28 +1,29 @@
 import { Link } from "react-router-dom"
+import data from "../data/company-profile.json"
 
 function Footer() {
     return(
         <footer className="bg-cyan-200 mt-10 rounded-md">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
-                <div className="mb-6 md:mb-0">
-                    <a href="#" className="flex items-center">
+                <div className="mb-6 md:mb-0 mr-4">
+                    <Link to="/" className="flex items-center">
                         <img src="/logo.png" className="h-14 me-3" alt="Bungkus Logo" />
                         <span className="hidden">Bungkus</span>
-                    </a>
+                    </Link>
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Kontak</h2>
                         <ul className="text-gray-500 font-medium">
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">Alamat</a>
+                            <li>
+                                <a href="#" className="hover:underline">{data.address}</a>
                             </li>
                             <li>
-                                <a href="#" className="hover:underline">Telepon/Customer Service</a>
+                                <a href={`https://wa.me/${data.phone.replace(/^0/, '62')}?text=Hai%20Bungkus,%20saya%20tertarik%20untuk%20membuat%20custom%20packaging`} className="hover:underline">{data.phone}</a>
                             </li>
                             <li>
-                                <a href="#" className="hover:underline">Email/Support</a>
+                                <a href={`mailto:${data.email}`} target='blank' className="hover:underline">{data.email}</a>
                             </li>
                         </ul>
                     </div>

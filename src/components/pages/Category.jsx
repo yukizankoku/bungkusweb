@@ -33,7 +33,7 @@ function Category() {
           <Link
             key={product.id}
             to={`/product/${product.slug}`}
-            className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="flex flex-col items-center bg-gray-200 border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
             <img
               className="object-cover w-full h-48 rounded-t-lg md:h-56"

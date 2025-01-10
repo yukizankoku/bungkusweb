@@ -61,7 +61,7 @@ function Service() {
           className="w-full h-auto rounded-lg"
         />
         {/* Overlay yang muncul saat hover */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-white bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-200 bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <h3 className="text-xl font-bold mb-2">{title}</h3>
           <p className="text-gray-500">{description}</p>
         </div>
