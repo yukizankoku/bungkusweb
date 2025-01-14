@@ -8,6 +8,15 @@ function Footer() {
                 <div className="md:flex md:justify-between">
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
+                    <iframe
+                        className="border mt-5 w-full h-64 rounded-lg"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1022461798384!2d106.7071420741316!3d-6.250256361196221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fbcb04638ea5%3A0xffeb08215ea3061b!2sJl.%20Utama%20Puri%20Bintaro%20Hijau%20Blok%20F9%20No.11%2C%20RT.001%2FRW.007%2C%20Parung%20Serab%2C%20Kec.%20Ciledug%2C%20Kota%20Tangerang%2C%20Banten%2015153!5e0!3m2!1sid!2sid!4v1735632435229!5m2!1sid!2sid"
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                    </div>
+                    <div>
                     <div className="mb-6 md:mb-0 mr-4">
                         <Link to="/" className="flex items-center">
                             <img src="/logo.png" className="h-16 me-3" alt="Bungkus Logo" />
@@ -45,6 +54,9 @@ function Footer() {
                             </li>
                             <li>
                                 <Link to="/contact" className="hover:underline">Contact</Link>
+                            </li>
+                            <li>
+                                <Link to="/faq" className="hover:underline">FAQ</Link>
                             </li>
                         </ul>
                     </div>
