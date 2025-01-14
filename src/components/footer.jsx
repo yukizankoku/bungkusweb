@@ -19,13 +19,13 @@ function Footer() {
                     <div>
                     <div className="mb-6 md:mb-0 mr-4">
                         <Link to="/" className="flex items-center">
-                            <img src="/logo.png" className="h-16 me-3" alt="Bungkus Logo" />
+                            <img src="/logo.png" className="h-32 me-3" alt="Bungkus Logo" />
                             <span className="hidden">Bungkus</span>
                         </Link>
                     </div>
                         <ul className="text-gray-500 font-medium">
                             <li>
-                                <a href="#" className="hover:underline">{data.address}</a>
+                                <a href="#" className="hover:underline" dangerouslySetInnerHTML={{ __html: data.address }}></a>
                             </li>
                             <li>
                                 <a href={`https://wa.me/${data.phone.replace(/^0/, '62')}?text=Hai%20Bungkus,%20saya%20tertarik%20untuk%20membuat%20custom%20packaging`} target="_blank" className="hover:underline">{data.phone}</a>
@@ -46,7 +46,7 @@ function Footer() {
                             </li>
                         </ul>
                     </div> */}
-                    <div>
+                    <div className="mt-10">
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">About</h2>
                         <ul className="text-gray-500 font-medium">
                             <li className="mb-4">
