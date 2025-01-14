@@ -90,5 +90,47 @@
     "slug": "corrugated-box",
     "categoryId": 3, 
     "image": "/packaging/category/corrugated.jpeg" 
+  },
+  { "id": 16, 
+    "name": "Cutlery", 
+    "slug": "cutlery", 
+    "categoryId": 4, 
+    "image": "/packaging/plastic-cutlery.jpeg" 
+  },
+  { "id": 17, 
+    "name": "Cup Lid", 
+    "slug": "cup-lid", 
+    "categoryId": 4, 
+    "image": "/packaging/cup-lid.png" 
+  },
+  { "id": 18, 
+    "name": "Paper Bag", 
+    "slug": "paper-bag", 
+    "categoryId": 1, 
+    "image": "/packaging/paper-bag.jpeg" 
+  },
+  { "id": 19, 
+    "name": "Plastic Bag", 
+    "slug": "plastic-bag", 
+    "categoryId": 4, 
+    "image": "/packaging/plastic-bag.jpeg" 
+  },
+  { "id": 20, 
+    "name": "Cup Seal", 
+    "slug": "cup-seal", 
+    "categoryId": 4, 
+    "image": "/packaging/cup-seal.jpeg" 
+  },
+  { "id": 21, 
+    "name": "Paper Tray", 
+    "slug": "paper-tray", 
+    "categoryId": 2, 
+    "image": "/packaging/paper-tray.jpeg" 
+  },
+  { "id": 22, 
+    "name": "Plastic Straw", 
+    "slug": "plastic-straw",
+    "categoryId": 4, 
+    "image": "/packaging/plastic-straw.jpeg" 
   }
 ]

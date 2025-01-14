@@ -7,6 +7,7 @@ import Clients from "./components/content/Clients";
 import Products from "./components/content/Products";
 import Service from "./components/content/Service";
 import Portfolio from "./components/content/Portfolio";
+import Factory from "./components/content/Factory";
 import data from "./data/company-profile.json";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Products />
       <Service />
       <Portfolio />
+      <Factory />
       <Footer />
       <WhatsappButton />
     </div>

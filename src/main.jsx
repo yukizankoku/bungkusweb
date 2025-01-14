@@ -8,8 +8,10 @@ import About from './components/pages/About.jsx'
 import Contact from './components/pages/Contact.jsx'
 import Products from './components/pages/Products.jsx'
 import Category from './components/pages/Category.jsx'
-import Product from './components/pages/Product.jsx'
+// import Product from './components/pages/Product.jsx'
 import Portfolio from './components/pages/Portfolios.jsx'
+import Factory from './components/pages/Factories.jsx'
+import FAQ from './components/pages/FAQ.jsx'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
     element: <Portfolio/>
   },
   {
+    path: "/factory",
+    element: <Factory/>
+  },
+  {
+    path: "/faq",
+    element: <FAQ/>
+  },
+  {
     path: "/products",
     element: <Products/>
   },
@@ -37,10 +47,10 @@ const router = createBrowserRouter([
     path: "/category/:slug",
     element: <Category/>
   },
-  {
-    path: "/product/:slug",
-    element: <Product/>
-  }
+  // {
+  //   path: "/product/:slug",
+  //   element: <Product/>
+  // }
 ]);
 
 createRoot(document.getElementById('root')).render(

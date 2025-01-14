@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "image": "/factory/factory-1.png"
+    },
+    {
+      "id": 2,
+      "image": "/factory/factory-14.jpeg"
+    },
+    {
+      "id": 3,
+      "image": "/factory/factory-3.png"
+    },
+    {
+      "id": 4,
+      "image": "/factory/factory-4.png"
+    },
+    { 
+      "id": 5,
+      "image": "/factory/factory-13.jpeg"
+    },
+    { 
+      "id": 6,
+      "image": "/factory/factory-6.png"
+    },
+    { 
+      "id": 7,
+      "image": "/factory/factory-7.png"
+    },
+    { 
+      "id": 8,
+      "image": "/factory/factory-8.png"
+    },
+    { 
+      "id": 9,
+      "image": "/factory/factory-9.png"
+    },
+    { 
+      "id": 10,
+      "image": "/factory/factory-10.png"
+    },
+    {
+      "id": 11,
+      "image": "/factory/factory-11.png"
+    },
+    { 
+      "id": 12,
+      "image": "/factory/factory-12.png"
+    },
+    { 
+      "id": 13,
+      "image": "/factory/factory-2.png"
+    },
+    { 
+      "id": 14,
+      "image": "/factory/factory-5.png"
+    },
+    { 
+      "id": 15,
+      "image": "/factory/factory-15.jpeg"
+    },
+    { 
+      "id": 16,
+      "image": "/factory/factory-16.jpeg"
+    }
+]

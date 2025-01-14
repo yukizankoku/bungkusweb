@@ -3,7 +3,7 @@ import data from "../data/company-profile.json"
 
 function Footer() {
     return(
-        <footer className="bg-cyan-200 mt-10 rounded-md">
+        <footer className="bg-gray-200 rounded-t-3xl">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -52,7 +52,7 @@ function Footer() {
                             <li className="mb-4">
                                 <Link to="/about" className="hover:underline">About Us</Link>
                             </li>
-                            <li>
+                            <li className="mb-4">
                                 <Link to="/contact" className="hover:underline">Contact</Link>
                             </li>
                             <li>

@@ -16,5 +16,11 @@
     "name": "Currogated Box", 
     "slug": "currogated-box",
     "image": "/packaging/category/corrugated.jpeg"
+  },
+  { 
+    "id": 4, 
+    "name": "Plastic", 
+    "slug": "plastic",
+    "image": "/packaging/category/plastic.jpeg"
   }
 ]

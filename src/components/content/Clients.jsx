@@ -12,8 +12,8 @@ function Clients() {
       "/client/logo-client-6.jpeg",
       "/client/logo-client-7.jpeg",
       "/client/logo-client-8.jpeg",
-      "/client/logo-client-9.jpeg",
-      "/client/logo-client-10.jpeg",
+      "/client/logo-client-9.jpg",
+      "/client/logo-client-10.png",
       "/client/logo-client-11.jpeg",
     ];
   

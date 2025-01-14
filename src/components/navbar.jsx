@@ -117,6 +117,14 @@ function DropdownItems() {
                     Corrugated Box
                 </Link>
             </li>
+            <li>
+                <Link
+                    to="/category/plastic"
+                    className="block px-4 py-2 hover:bg-cyan-300"
+                >
+                    Plastic
+                </Link>
+            </li>
         </ul>
     );
 }
