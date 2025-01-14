@@ -29,20 +29,9 @@ function About() {
           
           {/* Content Section */}
           <div>
-            <h2 className="text-3xl font-extrabold text-blue-700 mb-4">
-              Kami Hadir Untuk Menyediakan Solusi Kemasan Inovatif yang Menonjolkan Identitas Produk Anda
-            </h2>
             <p className="text-gray-600 text-sm leading-6">
               <div dangerouslySetInnerHTML={{ __html: data.about }}></div>
-            </p><br />
-            <p>Kami Menawarkan</p>
-            <ul className="list-disc text-sm text-gray-600 space-y-2 pl-4 mt-6">
-              <li>Desain Kemasan Custom.</li>
-              <li>Produksi Kemasan Beragam Material.</li>
-              <li>Layanan Prototipe dan Sampel.</li>
-              <li>Cetak dan Personalisasi Kemasan.</li>
-              <li>Pengemasan Ramah Lingkungan.</li>
-            </ul>
+            </p>
           </div>
         </div>
       </div>
