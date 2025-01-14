@@ -19,9 +19,9 @@ function Contact() {
       <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-8 p-6 mx-auto max-w-6xl bg-gray-100 shadow-lg rounded-lg font-[sans-serif]">
         {/* Left Section */}
         <div>
-          <h1 className="text-gray-800 text-3xl font-bold">Let&apos;s Talk</h1>
+          <h1 className="text-gray-800 text-3xl font-bold">Hubungi Kami!</h1>
           <p className="text-sm text-gray-600 mt-4">
-            Have some big idea or brand to develop and need help? Then reach out we&apos;d love to hear about your project and provide help.
+            Jadikan produk Anda lebih menarik dan profesional dengan kemasan berkualitas dari CV. Asia Kreasi Solusi. Hubungi kami sekarang dan wujudkan kemasan terbaik untuk bisnis Anda!
           </p>
           <iframe
             className="border mt-5 w-full h-64 rounded-lg"
@@ -55,14 +55,14 @@ function Contact() {
             </ul>
           </div>
 
-          <div className="mt-12">
+          {/* <div className="mt-12">
             <h2 className="text-gray-800 text-base font-bold">Socials</h2>
             <ul className="flex mt-4 space-x-4">
               <SocialIcon link="#" icon="/icons/social/facebook.svg" />
               <SocialIcon link="#" icon="/icons/social/instagram.svg" />
               <SocialIcon link="#" icon="/icons/social/linkedin.svg" />
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Right Section */}
@@ -126,14 +126,14 @@ function ContactItem({ icon, label, value, link }) {
   );
 }
 
-function SocialIcon({ link, icon }) {
-  return (
-    <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-      <a href={link}>
-        <img src={icon} alt="social icon" />
-      </a>
-    </li>
-  );
-}
+// function SocialIcon({ link, icon }) {
+//   return (
+//     <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+//       <a href={link}>
+//         <img src={icon} alt="social icon" />
+//       </a>
+//     </li>
+//   );
+// }
 
 export default ContactSection;

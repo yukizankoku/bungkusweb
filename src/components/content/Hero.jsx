@@ -9,7 +9,7 @@ function Hero() {
               Your Packaging Solution.
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
-              Kami Hadir untuk Menyediakan Solusi Kemasan Inovatif yang Menonjolkan Identitas Produk Anda, Menjaga Kualitas, dan Membantu Bisnis Anda Bersaing di Pasar!
+              Kami menyediakan kemasan inovatif yang menonjolkan identitas produk, menjaga kualitas, dan mendukung bisnis Anda bersaing di pasar!
             </p>
             <div className="flex space-x-4">
               <Link

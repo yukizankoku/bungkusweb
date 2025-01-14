@@ -27,9 +27,9 @@ function Portfolio() {
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {limitedPortfolio.map((item, index) => (
-          <div key={index} className="flex justify-center">
+          <div key={index} className="flex justify-center p-2 border border-gray-400 rounded-lg">
             <img
-              className="h-48 sm:h-60 md:h-72 w-full object-cover rounded-lg cursor-pointer transition-transform duration-200 hover:scale-105"
+              className="h-48 sm:h-60 md:h-72 w-full object-contain rounded-lg cursor-pointer transition-transform duration-200 hover:scale-105"
               src={item.image}
               alt={item.name}
               onClick={() => setSelectedImage(item.image)}

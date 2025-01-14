@@ -15,7 +15,7 @@ function AboutSection() {
 function About() {
   return (
     <div className="bg-gray-100 px-6 py-12 font-sans">
-      <h1 className="text-center font-bold text-2xl text-purple-700">About Us</h1>
+      <h1 className="text-center font-bold text-2xl text-blue-700">About Us</h1>
       <div className="lg:max-w-7xl max-w-lg mx-auto px-6 py-8 bg-gray-200 rounded-lg shadow-md">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Image Section */}
@@ -23,17 +23,17 @@ function About() {
             <img 
               src="/logo.png" 
               alt="Bungkus Logo" 
-              className="rounded-md object-cover w-full h-full" 
+              className="rounded-md object-fit w-full h-full" 
             />
           </div>
           
           {/* Content Section */}
           <div>
-            <h2 className="text-3xl font-extrabold text-purple-700 mb-4">
+            <h2 className="text-3xl font-extrabold text-blue-700 mb-4">
               Kami Hadir Untuk Menyediakan Solusi Kemasan Inovatif yang Menonjolkan Identitas Produk Anda
             </h2>
             <p className="text-gray-600 text-sm leading-6">
-              {data.about}
+              <div dangerouslySetInnerHTML={{ __html: data.about }}></div>
             </p><br />
             <p>Kami Menawarkan</p>
             <ul className="list-disc text-sm text-gray-600 space-y-2 pl-4 mt-6">

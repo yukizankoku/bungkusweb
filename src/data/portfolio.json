@@ -1,62 +1,97 @@
 [
     { 
       "id": 1, 
-      "name": "Soft Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-1.png"
     },
     { 
       "id": 2, 
-      "name": "Hard Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-2.png"
     },
     { 
       "id": 3, 
-      "name": "Currogated Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-3.png"
     },
     { 
       "id": 4, 
-      "name": "Soft Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-4.png"
     },
     { 
       "id": 5, 
-      "name": "Hard Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-5.png"
     },
     { 
       "id": 6, 
-      "name": "Currogated Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-6.png"
     },
     { 
       "id": 7, 
-      "name": "Soft Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-7.png"
     },
     { 
       "id": 8, 
-      "name": "Hard Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-8.png"
     },
     { 
       "id": 9, 
-      "name": "Currogated Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-9.png"
     },
     { 
       "id": 10, 
-      "name": "Soft Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-10.png"
     },
     {
       "id": 11, 
-      "name": "Hard Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-11.png"
     },
     { 
       "id": 12, 
-      "name": "Currogated Box",
-      "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-12.png"
+    },
+    { 
+      "id": 13, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-13.png"
+    },
+    { 
+      "id": 14, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-14.png"
+    },
+    { 
+      "id": 15, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-15.png"
+    },
+    { 
+      "id": 16, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-16.png"
+    },
+    { 
+      "id": 17, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-17.png"
+    },
+    {
+      "id": 18, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-18.png"
+    },
+    { 
+      "id": 19, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-19.png"
     }
 ]

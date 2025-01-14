@@ -20,9 +20,8 @@ function Clients() {
     return (
       <div className="clients bg-cyan-200 p-10 text-center mb-10">
         <h1 className="text-3xl font-bold mb-2">
-          Perusahaan Custom Packaging di Indonesia
+          Klien Kami
         </h1>
-        <h3 className="text-xl font-normal mb-4">Klien Kami</h3>
   
         <div className="autoplay-slider w-full overflow-hidden">
           <Swiper
