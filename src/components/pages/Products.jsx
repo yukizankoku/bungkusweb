@@ -55,7 +55,7 @@ const Products = () => {
                         className="flex flex-col items-center bg-gray-200 border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                     >
                         <img
-                        className="object-cover w-full h-48 rounded-t-lg md:h-56"
+                        className="object-contain bg-zinc-300 w-full h-48 rounded-t-lg md:h-56"
                         src={product.image}
                         alt={product.name}
                         />

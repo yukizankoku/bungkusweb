@@ -4,98 +4,86 @@
     "name": "Standard Soft Box", 
     "slug": "standard-soft-box", 
     "categoryId": 1, 
-    "image": "/packaging/softbox-standar.jpeg" 
+    "image": "/packaging/softbox-standar.png" 
   },
   { 
     "id": 2, 
     "name": "Window Soft Box", 
     "slug": "window-soft-box", 
     "categoryId": 1, 
-    "image": "/packaging/softbox-standar.jpeg"
+    "image": "/packaging/window-softbox.png"
   },
   { "id": 3, 
     "name": "Gable Soft Box", 
     "slug": "gable-soft-box", 
     "categoryId": 1, 
-    "image": "/packaging/gable.jpeg" 
-  },
-  { "id": 4, 
-    "name": "Tray Soft Box", 
-    "slug": "tray-soft-box", 
-    "categoryId": 1, 
-    "image": "/packaging/softbox-standar.jpeg" 
+    "image": "/packaging/gable.png" 
   },
   { "id": 5, 
     "name": "Paper Food Pail", 
     "slug": "paper-food-pail", 
     "categoryId": 1, 
-    "image": "/packaging/softbox-standar.jpeg" 
+    "image": "/packaging/food-pail.png" 
   },
   { "id": 6, 
     "name": "Paper Bowl", 
     "slug": "paper-bowl", 
     "categoryId": 1, 
-    "image": "/packaging/paper-bowl.jpeg" 
+    "image": "/packaging/paper-bowl.png" 
   },
   { "id": 7, 
     "name": "Paper Lunch Box", 
     "slug": "paper-lunch-box", 
     "categoryId": 1,
-    "image": "/packaging/softbox-standar.jpeg" 
+    "image": "/packaging/lunch-box.png" 
   },
   { "id": 8, 
     "name": "Paper Cup", 
     "slug": "paper-cup", 
     "categoryId": 1, 
-    "image": "/packaging/paper-cup.jpeg" 
+    "image": "/packaging/paper-cup.png" 
   },
   { "id": 9, 
     "name": "Mailer", 
     "slug": "mailer", 
     "categoryId": 1, 
-    "image": "/packaging/softbox-standar.jpeg" 
+    "image": "/packaging/mailer.png" 
   },
   { "id": 10, 
     "name": "Sliding Soft Box", 
     "slug": "sliding-soft-box", 
     "categoryId": 1, 
-    "image": "/packaging/softbox-standar.jpeg" 
+    "image": "/packaging/sliding-softbox.png" 
   },
   { "id": 11, 
     "name": "Hard Box 2 Pieces", 
     "slug": "hard-box-2-pieces", 
     "categoryId": 2, 
-    "image": "/packaging/softbox-standar.jpeg" 
-  },
-  { "id": 12, 
-    "name": "Hard Box 3 Pieces", 
-    "slug": "hard-box-3-pieces", 
-    "categoryId": 2, 
-    "image": "/packaging/softbox-standar.jpeg" 
+    "image": "/packaging/hardbox-2pcs.png" 
   },
   { "id": 13, 
     "name": "Sliding Hard Box", 
     "slug": "sliding-hard-box", 
     "categoryId": 2, 
-    "image": "/packaging/softbox-standar.jpeg" 
+    "image": "/packaging/sliding-hardbox.png" 
   },
   { "id": 14, 
     "name": "Magnet Hard Box", 
     "slug": "magnet-hard-box", 
     "categoryId": 2, 
-    "image": "/packaging/softbox-standar.jpeg" 
+    "image": "/packaging/magnet.png" 
   },
   { "id": 15, 
     "name": "Corrugated Box", 
     "slug": "corrugated-box",
     "categoryId": 3, 
-    "image": "/packaging/category/corrugated.jpeg" 
+    "image": "/packaging/category/corrugated.png" 
   },
   { "id": 16, 
     "name": "Cutlery", 
     "slug": "cutlery", 
     "categoryId": 4, 
-    "image": "/packaging/plastic-cutlery.jpeg" 
+    "image": "/packaging/plastic-cutlery.png" 
   },
   { "id": 17, 
     "name": "Cup Lid", 
@@ -107,30 +95,30 @@
     "name": "Paper Bag", 
     "slug": "paper-bag", 
     "categoryId": 1, 
-    "image": "/packaging/paper-bag.jpeg" 
+    "image": "/packaging/paper-bag.png" 
   },
   { "id": 19, 
     "name": "Plastic Bag", 
     "slug": "plastic-bag", 
     "categoryId": 4, 
-    "image": "/packaging/plastic-bag.jpeg" 
+    "image": "/packaging/plastic-bag.png" 
   },
   { "id": 20, 
     "name": "Cup Seal", 
     "slug": "cup-seal", 
     "categoryId": 4, 
-    "image": "/packaging/cup-seal.jpeg" 
+    "image": "/packaging/cup-seal.png" 
   },
   { "id": 21, 
     "name": "Paper Tray", 
     "slug": "paper-tray", 
-    "categoryId": 2, 
-    "image": "/packaging/paper-tray.jpeg" 
+    "categoryId": 1, 
+    "image": "/packaging/paper-tray.png" 
   },
   { "id": 22, 
     "name": "Plastic Straw", 
     "slug": "plastic-straw",
     "categoryId": 4, 
-    "image": "/packaging/plastic-straw.jpeg" 
+    "image": "/packaging/plastic-straw.png" 
   }
 ]

@@ -5,7 +5,7 @@
     },
     {
       "id": 2,
-      "image": "/factory/factory-14.jpeg"
+      "image": "/factory/factory-14.png"
     },
     {
       "id": 3,
@@ -41,7 +41,7 @@
     },
     {
       "id": 11,
-      "image": "/factory/factory-11.jpeg"
+      "image": "/factory/factory-11.png"
     },
     { 
       "id": 12,
@@ -65,7 +65,7 @@
     },
     { 
       "id": 17,
-      "image": "/factory/factory-17.jpeg"
+      "image": "/factory/factory-17.png"
     },
     { 
       "id": 18,
@@ -73,6 +73,6 @@
     },
     { 
       "id": 19,
-      "image": "/factory/factory-19.jpeg"
+      "image": "/factory/factory-19.png"
     }
 ]

@@ -3,24 +3,24 @@
     "id": 1, 
     "name": "Soft Box", 
     "slug": "soft-box",
-    "image": "/packaging/category/softbox.jpeg"
+    "image": "/packaging/category/soft-box.png"
   },
   { 
     "id": 2, 
     "name": "Hard Box", 
     "slug": "hard-box",
-    "image": "/packaging/category/hardbox.jpeg"
+    "image": "/packaging/category/hard-box.png"
   },
   { 
     "id": 3, 
     "name": "Currogated Box", 
     "slug": "currogated-box",
-    "image": "/packaging/category/corrugated.jpeg"
+    "image": "/packaging/category/corrugated.png"
   },
   { 
     "id": 4, 
     "name": "Plastic", 
     "slug": "plastic",
-    "image": "/packaging/category/plastic.jpeg"
+    "image": "/packaging/category/plastic.png"
   }
 ]

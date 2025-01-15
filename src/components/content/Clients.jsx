@@ -4,15 +4,15 @@ import { Autoplay } from "swiper/modules";
 
 function Clients() {
     const logos = [
-      "/client/logo-client-1.jpeg",
-      "/client/logo-client-2.jpeg",
-      "/client/logo-client-3.jpeg",
-      "/client/logo-client-4.jpeg",
+      "/client/logo-client-1.png",
+      "/client/logo-client-2.png",
+      "/client/logo-client-3.png",
+      "/client/logo-client-4.png",
       "/client/logo-client-5.jpeg",
-      "/client/logo-client-6.jpeg",
-      "/client/logo-client-7.jpeg",
-      "/client/logo-client-8.jpeg",
-      "/client/logo-client-9.jpg",
+      "/client/logo-client-6.png",
+      "/client/logo-client-7.png",
+      "/client/logo-client-8.png",
+      "/client/logo-client-9.png",
       "/client/logo-client-10.png",
       "/client/logo-client-11.jpeg",
     ];

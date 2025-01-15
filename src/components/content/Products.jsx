@@ -17,7 +17,7 @@ function Products() {
           >
             <Link to={`/category/${category.slug}`} className="block">
               <img
-                className="w-full h-48 object-cover"
+                className="w-full h-48 object-contain bg-zinc-300"
                 src={category.image}
                 alt={category.name}
               />
