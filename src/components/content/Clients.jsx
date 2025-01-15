@@ -34,6 +34,18 @@ function Clients() {
             }}
             speed={4000}
             modules={[Autoplay]}
+            breakpoints={{
+              // Atur breakpoint untuk layar kecil
+              0: {
+                slidesPerView: 3, // Misalnya, 2 slide untuk layar sangat kecil
+              },
+              640: {
+                slidesPerView: 6, // 6 slide untuk layar kecil
+              },
+              1024: {
+                slidesPerView: 10, // 10 slide untuk layar besar
+              },
+            }}
           >
             {logos.map((logo, index) => (
               <SwiperSlide key={index}>
