@@ -28,8 +28,39 @@ function App() {
 
 function WhatsappButton() {
   const [show, setShow] = useState(false);
+  const [formData, setFormData] = useState({
+    nama: "",
+    perusahaan: "",
+    usaha: "",
+    provinsi: "",
+  });
 
   const handleShow = () => setShow(!show);
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = () => {
+    const { nama, perusahaan, usaha, provinsi } = formData;
+
+    // Validasi jika ada input yang kosong
+    if (!nama || !perusahaan || !usaha || !provinsi) {
+      alert("Harap lengkapi semua data!");
+      return;
+    }
+
+    // Buat pesan WhatsApp
+    const message = `Hallo, saya ingin BUNGKUS produk saya:
+- Nama: ${nama}
+- Nama Perusahaan: ${perusahaan}
+- Jenis Usaha: ${usaha}
+- Provinsi: ${provinsi}`;
+    const whatsappUrl = `https://wa.me/${data.phone.replace(/^0/, '62')}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsappUrl, "_blank");
+  };
 
   return (
     <>
@@ -38,7 +69,7 @@ function WhatsappButton() {
         <button
           onClick={handleShow}
           className="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition duration-200"
-          aria-label="Open WhatsApp Chat"
+          aria-label="Open WhatsApp Form"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,27 +83,59 @@ function WhatsappButton() {
         </button>
       </div>
 
-      {/* Chat Popup */}
+      {/* Form Popup */}
       {show && (
         <div className="fixed bottom-16 right-10 bg-white shadow-lg rounded-lg p-4 w-72 sm:w-80 z-50 transform transition-all duration-300 ease-in-out max-w-full">
           <button
-            className="absolute top-2 right-10 text-gray-500 hover:text-gray-700"
+            className="absolute top-2 right-3 text-gray-500 hover:text-gray-700"
             onClick={handleShow}
-            aria-label="Close Chat"
+            aria-label="Close Form"
           >
             ×
           </button>
-          <p className="text-sm text-gray-700 mb-4 text-center">
-            Halo! Ada yang bisa kami bantu? 😊
-          </p>
-          <a
-            href={`https://wa.me/${data.phone.replace(/^0/, '62')}?text=Hai%20Bungkus,%20saya%20tertarik%20untuk%20membuat%20custom%20packaging`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded w-full text-center transition duration-200"
+          <h3 className="text-lg font-semibold text-gray-700 mb-4">
+            Isi Detail Anda
+          </h3>
+          <div className="space-y-3">
+            <input
+              type="text"
+              name="nama"
+              value={formData.nama}
+              onChange={handleChange}
+              placeholder="Nama"
+              className="w-full border rounded px-3 py-2 focus:outline-none focus:ring focus:ring-green-500"
+            />
+            <input
+              type="text"
+              name="perusahaan"
+              value={formData.perusahaan}
+              onChange={handleChange}
+              placeholder="Nama Perusahaan"
+              className="w-full border rounded px-3 py-2 focus:outline-none focus:ring focus:ring-green-500"
+            />
+            <input
+              type="text"
+              name="usaha"
+              value={formData.usaha}
+              onChange={handleChange}
+              placeholder="Jenis Usaha"
+              className="w-full border rounded px-3 py-2 focus:outline-none focus:ring focus:ring-green-500"
+            />
+            <input
+              type="text"
+              name="provinsi"
+              value={formData.provinsi}
+              onChange={handleChange}
+              placeholder="Provinsi"
+              className="w-full border rounded px-3 py-2 focus:outline-none focus:ring focus:ring-green-500"
+            />
+          </div>
+          <button
+            onClick={handleSubmit}
+            className="mt-4 w-full bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded transition duration-200"
           >
-            Chat via WhatsApp
-          </a>
+            Kirim via WhatsApp
+          </button>
         </div>
       )}
     </>

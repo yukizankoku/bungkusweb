@@ -62,5 +62,21 @@
     { 
       "id": 16,
       "image": "/factory/factory-16.jpeg"
+    },
+    { 
+      "id": 17,
+      "image": "/factory/factory-17.png"
+    },
+    { 
+      "id": 18,
+      "image": "/factory/factory-18.png"
+    },
+    { 
+      "id": 19,
+      "image": "/factory/factory-19.jpeg"
+    },
+    { 
+      "id": 20,
+      "image": "/factory/factory-20.jpeg"
     }
 ]

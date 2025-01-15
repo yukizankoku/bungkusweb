@@ -1,5 +1,8 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
+import React, { useState } from "react";
 import { Link } from "react-router-dom"
-import data from "../data/company-profile.json"
+import company from "../data/company-profile.json"
 
 function Footer() {
     return(
@@ -25,13 +28,13 @@ function Footer() {
                     </div>
                         <ul className="text-gray-500 font-medium">
                             <li>
-                                <a href="#" className="hover:underline" dangerouslySetInnerHTML={{ __html: data.address }}></a>
+                                <a href="#" className="hover:underline" dangerouslySetInnerHTML={{ __html: company.address }}></a>
                             </li>
                             <li>
-                                <a href={`https://wa.me/${data.phone.replace(/^0/, '62')}?text=Hai%20Bungkus,%20saya%20tertarik%20untuk%20membuat%20custom%20packaging`} target="_blank" className="hover:underline">{data.phone}</a>
+                                <WhatsappLink/>
                             </li>
                             <li>
-                                <a href={`mailto:${data.email}`} target='blank' className="hover:underline">{data.email}</a>
+                                <a href={`mailto:${company.email}`} target='blank' className="hover:underline">{company.email}</a>
                             </li>
                         </ul>
                     </div>
@@ -71,5 +74,106 @@ function Footer() {
         </footer>
     )
 }
+
+function WhatsappLink({ data }) {
+    const [show, setShow] = useState(false);
+    const [formData, setFormData] = useState({
+      nama: "",
+      perusahaan: "",
+      usaha: "",
+      provinsi: "",
+    });
+  
+    const handleShow = () => setShow(!show);
+  
+    const handleChange = (e) => {
+      setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+  
+    const handleSubmit = () => {
+      const { nama, perusahaan, usaha, provinsi } = formData;
+  
+      // Validasi jika ada input yang kosong
+      if (!nama || !perusahaan || !usaha || !provinsi) {
+        alert("Harap lengkapi semua data!");
+        return;
+      }
+  
+      // Buat pesan WhatsApp
+      const message = `Hallo, saya ingin BUNGKUS produk saya:
+  - Nama: ${nama}
+  - Nama Perusahaan: ${perusahaan}
+  - Jenis Usaha: ${usaha}
+  - Provinsi: ${provinsi}`;
+      const whatsappUrl = `https://wa.me/${company.phone.replace(/^0/,"62")}?text=${encodeURIComponent(message)}`;
+      window.open(whatsappUrl, "_blank");
+    };
+  
+    return (
+      <>
+        {/* Link yang memunculkan popup */}
+        <button onClick={handleShow}
+          className="hover:underline">
+          {company.phone}
+        </button>
+  
+        {/* Popup Form */}
+        {show && (
+          <div className="fixed bottom-16 right-10 bg-white shadow-lg rounded-lg p-4 w-72 sm:w-80 z-50 transform transition-all duration-300 ease-in-out max-w-full">
+            <button
+              className="absolute top-2 right-3 text-gray-500 hover:text-gray-700"
+              onClick={handleShow}
+              aria-label="Close Form"
+            >
+              ×
+            </button>
+            <h3 className="text-lg font-semibold text-gray-700 mb-4">
+              Isi Detail Anda
+            </h3>
+            <div className="space-y-3">
+              <input
+                type="text"
+                name="nama"
+                value={formData.nama}
+                onChange={handleChange}
+                placeholder="Nama"
+                className="w-full border rounded px-3 py-2 focus:outline-none focus:ring focus:ring-green-500"
+              />
+              <input
+                type="text"
+                name="perusahaan"
+                value={formData.perusahaan}
+                onChange={handleChange}
+                placeholder="Nama Perusahaan"
+                className="w-full border rounded px-3 py-2 focus:outline-none focus:ring focus:ring-green-500"
+              />
+              <input
+                type="text"
+                name="usaha"
+                value={formData.usaha}
+                onChange={handleChange}
+                placeholder="Jenis Usaha"
+                className="w-full border rounded px-3 py-2 focus:outline-none focus:ring focus:ring-green-500"
+              />
+              <input
+                type="text"
+                name="provinsi"
+                value={formData.provinsi}
+                onChange={handleChange}
+                placeholder="Provinsi"
+                className="w-full border rounded px-3 py-2 focus:outline-none focus:ring focus:ring-green-500"
+              />
+            </div>
+            <button
+              onClick={handleSubmit}
+              className="mt-4 w-full bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded transition duration-200"
+            >
+              Kirim via WhatsApp
+            </button>
+          </div>
+        )}
+      </>
+    );
+  }
 
 export default Footer
