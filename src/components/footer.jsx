@@ -6,7 +6,7 @@ import company from "../data/company-profile.json"
 
 function Footer() {
     return(
-        <footer className="bg-gray-200 rounded-t-3xl">
+        <footer className="bg-putih bg-cover bg-center">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

@@ -11,7 +11,7 @@ import company from "../../data/company-profile.json";
 
 function ProductSection() {
   return(
-    <div>
+    <div className="bg-primary">
       <Navbar/>
       <Product/>
       <Footer/>

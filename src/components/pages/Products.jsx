@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function ProductsPage() {
     return(
-        <div>
+        <div className="bg-primary">
             <Navbar />
             <Products />
             <Footer />

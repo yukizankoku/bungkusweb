@@ -7,9 +7,9 @@ import Footer from "../footer";
 
 function FAQSection(){
     return(
-        <div>
+        <div className="bg-primary">
             <Navbar/>
-            <main className="flex-grow container mx-auto px-4 py-8">
+            <main className="flex-grow container mx-auto px-4 py-8 ">
                 <h1 className="text-3xl font-bold text-center mb-6">
                     Frequently Asked Questions
                 </h1>

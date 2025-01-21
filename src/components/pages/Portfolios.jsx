@@ -7,7 +7,7 @@ import portfolio from "../../data/portfolio.json";
 
 function PortfolioSection() {
   return(
-    <div>
+    <div className="bg-primary">
       <Navbar/>
       <Portfolio/>
       <Footer/>

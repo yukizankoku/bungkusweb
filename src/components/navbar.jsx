@@ -10,7 +10,7 @@ function Navbar() {
     };
 
     return (
-        <nav className="bg-cyan-200 border-gray-200">
+        <nav className="bg-putih border-gray-200 bg-cover bg-center">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="/logo.png" className="h-24" alt="Bungkus Logo" />
@@ -23,7 +23,7 @@ function Navbar() {
                     } w-full md:block md:w-auto`}
                     id="navbar-default"
                 >
-                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-cyan-200 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                         <Menu href="/">Home</Menu>
                         <DropdownMenu title="Product">
                             <DropdownItems />

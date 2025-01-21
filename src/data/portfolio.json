@@ -98,5 +98,15 @@
       "id": 20, 
       "name": "Portfolio Bungkus",
       "image": "/portfolio/porto-20.png"
+    },
+    { 
+      "id": 21, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-21.png"
+    },
+    { 
+      "id": 22, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-22.png"
     }
 ]

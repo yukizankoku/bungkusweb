@@ -8,7 +8,8 @@ function Factory() {
   const limitedFactory = factory.slice(0, 6);
 
   return (
-    <div className="factory px-4 sm:px-6 lg:px-8 mt-10 bg-cyan-200">
+    <div className="factory px-4 py-4 sm:px-6 lg:px-8 bg-krem bg-cover bg-center rounded-3xl" data-aos="fade-up"
+    data-aos-duration="3000">
       {selectedImage && (
         <div
           className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50"

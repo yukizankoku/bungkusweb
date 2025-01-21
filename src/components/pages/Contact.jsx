@@ -15,7 +15,7 @@ function ContactSection() {
 
 function Contact() {
   return (
-    <div className="mt-6 px-4 sm:px-6 lg:px-8">
+    <div className="bg-primary mt-6 px-4 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-8 p-6 mx-auto max-w-6xl bg-gray-100 shadow-lg rounded-lg font-[sans-serif]">
         {/* Left Section */}
         <div>
@@ -37,7 +37,11 @@ function Contact() {
               <ContactItem
                 icon="/icons/social/address.svg"
                 label="Address"
-                value={data.address}
+                value={<span
+                  dangerouslySetInnerHTML={{
+                    __html: data.address,
+                  }}
+                />}
                 link="#"
               />
               <ContactItem
@@ -74,7 +78,7 @@ function Contact() {
           <input
             type="hidden"
             name="access_key"
-            value="ea6ad8a7-0f38-40d6-b2e5-a430e3dbe8cd"
+            value="0e466581-2a1d-45e8-923a-41517f66454b"
           />
           <input
             type="text"
@@ -89,9 +93,9 @@ function Contact() {
             className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
           />
           <input
-            type="text"
-            name="subject"
-            placeholder="Subject"
+            type="number"
+            name="phone"
+            placeholder="Phone Number"
             className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
           />
           <textarea

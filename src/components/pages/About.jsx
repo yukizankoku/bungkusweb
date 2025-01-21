@@ -4,7 +4,7 @@ import data from '../../data/company-profile.json';
 
 function AboutSection() {
   return (
-    <div>
+    <div className='bg-primary'>
       <Navbar />
       <About />
       <Footer />

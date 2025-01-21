@@ -3,15 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        'coklat': "url('./assets/background/bg-coklat.jpg')",
+        'putih': "url('./assets/background/bg-putih.jpg')",
+        'krem': "url('./assets/background/bg-krem.jpg')",
+      },
       colors: {
-        pastel: {
-          red: '#FFD1D1',
-          blue: '#D1E7FF',
-          green: '#D1FFD1',
-          orange: '#FFE4B5',
-          gray: '#F5F5F5',
-          brown: '#D9B7A8',
-        },
+        'primary':'#EAE2C6',
+        'secondary':'#BFBBA9',
+        'accent':'#ADA991',
       },
     },
   },

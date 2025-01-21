@@ -5,7 +5,8 @@ function Products() {
   console.log(categories);
 
   return (
-    <div className="categories py-10 px-4">
+    <div className="categories bg-coklat py-10 px-4 bg-cover bg-center rounded-3xl" data-aos="fade-up"
+    data-aos-duration="3000">
       <h1 className="text-center text-2xl md:text-3xl font-bold mb-8">
         Temukan Packaging Yang Tepat Untuk Bisnis Anda
       </h1>
@@ -13,11 +14,11 @@ function Products() {
         {categories.map((category, index) => (
           <div
             key={index}
-            className="bg-gray-200 border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+            className="bg-secondary border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
           >
             <Link to={`/category/${category.slug}`} className="block">
               <img
-                className="w-full h-48 object-contain bg-zinc-300"
+                className="w-full h-48 object-contain bg-accent"
                 src={category.image}
                 alt={category.name}
               />
