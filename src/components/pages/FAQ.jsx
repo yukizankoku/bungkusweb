@@ -53,7 +53,7 @@ function Faq() {
         {
             question: "Bagaimana cara melakukan pemesanan?",
             answer:
-                "Anda dapat melakukan pemesanan dengan menghubungi kami melalui email, telepon, atau langsung melalui website."
+                "Anda dapat melakukan pemesanan dengan menghubungi kami melalui email, telepon, atau melalui Whatsapp."
         }
     ];
 
@@ -73,7 +73,7 @@ function Accordion({ question, answer }) {
         <div className="border border-gray-300 rounded-lg">
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex justify-between items-center w-full px-4 py-2 text-left font-medium text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="flex justify-between items-center w-full px-4 py-2 text-left font-medium text-gray-900 bg-secondary hover:bg-accent"
             >
                 <span>{question}</span>
                 <svg

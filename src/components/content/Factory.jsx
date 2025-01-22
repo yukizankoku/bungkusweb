@@ -28,9 +28,9 @@ function Factory() {
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {limitedFactory.map((item, index) => (
-          <div key={index} className="flex justify-center bg-white p-2 border border-gray-400 rounded-lg">
+          <div key={index} className="flex justify-center bg-white border border-gray-400 rounded-lg">
             <img
-              className="h-48 sm:h-60 md:h-72 w-full object-contain rounded-lg cursor-pointer transition-transform duration-200 hover:scale-105"
+              className="h-48 sm:h-60 md:h-72 bg-putih w-full object-contain rounded-lg cursor-pointer transition-transform duration-200 hover:scale-105"
               src={item.image}
               alt={item.name}
               onClick={() => setSelectedImage(item.image)}

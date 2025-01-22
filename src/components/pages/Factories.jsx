@@ -36,7 +36,7 @@ function Factory() {
         <h1 className="text-center text-3xl font-bold mb-2">Our Factory and Machine</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
           {factory.map((factory, index) => (
-            <div key={index} className="border border-gray-400 rounded-lg flex justify-center p-2">
+            <div key={index} className="border border-gray-400 rounded-lg flex justify-center p-2 bg-putih">
               <img
                 className="h-72 rounded-lg cursor-pointer"
                 src={factory.image}

@@ -5,7 +5,7 @@ import data from '../../data/company-profile.json';
 
 function ContactSection() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div>
       <Navbar />
       <Contact />
       <Footer />
@@ -15,8 +15,8 @@ function ContactSection() {
 
 function Contact() {
   return (
-    <div className="bg-primary mt-6 px-4 sm:px-6 lg:px-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-8 p-6 mx-auto max-w-6xl bg-gray-100 shadow-lg rounded-lg font-[sans-serif]">
+    <div className="bg-secondary py-4 px-4 sm:px-6 lg:px-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-8 p-6 mx-auto max-w-6xl bg-primary shadow-lg rounded-lg font-[sans-serif]">
         {/* Left Section */}
         <div>
           <h1 className="text-gray-800 text-3xl font-bold">Hubungi Kami!</h1>
@@ -84,25 +84,25 @@ function Contact() {
             type="text"
             name="name"
             placeholder="Name"
-            className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
+            className="w-full text-gray-800 rounded-md py-2.5 px-4 border border-gray-800 text-sm outline-none focus:border-blue-500"
           />
           <input
             type="email"
             name="email"
             placeholder="Email"
-            className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
+            className="w-full text-gray-800 rounded-md py-2.5 px-4 border border-gray-800 text-sm outline-none focus:border-blue-500"
           />
           <input
             type="number"
             name="phone"
             placeholder="Phone Number"
-            className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
+            className="w-full text-gray-800 rounded-md py-2.5 px-4 border border-gray-800 text-sm outline-none focus:border-blue-500"
           />
           <textarea
             placeholder="Message"
             name="message"
-            rows="6"
-            className="w-full text-gray-800 rounded-md px-4 border text-sm pt-2.5 outline-none focus:border-blue-500"
+            rows="10"
+            className="w-full text-gray-800 rounded-md px-4 border border-gray-800 text-sm pt-2.5 outline-none focus:border-blue-500"
           ></textarea>
           <button
             type="submit"

@@ -4,7 +4,7 @@ import data from '../../data/company-profile.json';
 
 function AboutSection() {
   return (
-    <div className='bg-primary'>
+    <div>
       <Navbar />
       <About />
       <Footer />
@@ -14,9 +14,9 @@ function AboutSection() {
 
 function About() {
   return (
-    <div className="bg-gray-100 px-6 py-12 font-sans">
+    <div className="bg-secondary px-6 py-12 font-sans">
       <h1 className="text-center font-bold text-2xl text-blue-700">About Us</h1>
-      <div className="lg:max-w-7xl max-w-lg mx-auto px-6 py-8 bg-gray-200 rounded-lg shadow-md">
+      <div className="lg:max-w-7xl max-w-lg mx-auto px-6 py-8 bg-primary rounded-lg shadow-md">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Image Section */}
           <div className="max-h-80">

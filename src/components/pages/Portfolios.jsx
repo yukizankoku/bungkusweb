@@ -7,7 +7,7 @@ import portfolio from "../../data/portfolio.json";
 
 function PortfolioSection() {
   return(
-    <div className="bg-primary">
+    <div className="bg-coklat">
       <Navbar/>
       <Portfolio/>
       <Footer/>
@@ -36,7 +36,7 @@ function Portfolio() {
         <h1 className="text-center text-3xl font-bold mb-2">Portfolio</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
           {portfolio.map((portfolio, index) => (
-            <div key={index} className="border border-gray-400 rounded-lg flex justify-center p-2">
+            <div key={index} className="border border-gray-400 bg-putih rounded-lg flex justify-center">
               <img
                 className="h-72 rounded-lg cursor-pointer"
                 src={portfolio.image}
