@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../navbar";
 import Footer from "../footer";
+import WhatsappButton from "../content/WhatsappButton.jsx";
 import factory from "../../data/factories.json";
 
 function FactorySection() {
@@ -11,6 +12,7 @@ function FactorySection() {
       <Navbar/>
       <Factory/>
       <Footer/>
+      <WhatsappButton/>
     </div>
   )
 }

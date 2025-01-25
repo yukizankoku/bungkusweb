@@ -7,7 +7,7 @@ function Service() {
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div className="mb-8 lg:mb-16">
             <h2 className="mb-4 text-center text-4xl tracking-tight font-extrabold text-gray-900">
-              Solusi Custom Packaging
+              Senyuman Anda Adalah Prioritas Kami
             </h2>
             <p className="text-gray-500 text-center sm:text-xl">
               Kami berkomitmen untuk membuat box kemasan produk yang ramah lingkungan, dengan

@@ -1,5 +1,6 @@
 import Navbar from '../navbar.jsx';
 import Footer from '../footer.jsx';
+import WhatsappButton from "../content/WhatsappButton.jsx";
 import data from '../../data/company-profile.json';
 
 function AboutSection() {
@@ -8,6 +9,7 @@ function AboutSection() {
       <Navbar />
       <About />
       <Footer />
+      <WhatsappButton />
     </div>
   );
 }

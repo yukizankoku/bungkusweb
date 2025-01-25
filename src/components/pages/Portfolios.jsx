@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../navbar";
 import Footer from "../footer";
+import WhatsappButton from "../content/WhatsappButton.jsx";
 import portfolio from "../../data/portfolio.json";
 
 function PortfolioSection() {
@@ -11,6 +12,7 @@ function PortfolioSection() {
       <Navbar/>
       <Portfolio/>
       <Footer/>
+      <WhatsappButton/>
     </div>
   )
 }

@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
+import WhatsappButton from "../content/WhatsappButton.jsx";
 import categoriesData from "../../data/categories.json";
 import productsData from "../../data/products.json";
 import { Link } from "react-router-dom";
@@ -12,6 +13,7 @@ function ProductsPage() {
             <Navbar />
             <Products />
             <Footer />
+            <WhatsappButton />
         </div>
     )
 }

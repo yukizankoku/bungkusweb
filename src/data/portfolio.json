@@ -108,5 +108,20 @@
       "id": 22, 
       "name": "Portfolio Bungkus",
       "image": "/portfolio/porto-22.png"
+    },
+    { 
+      "id": 23, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-23.png"
+    },
+    { 
+      "id": 24, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-24.png"
+    },
+    { 
+      "id": 25, 
+      "name": "Portfolio Bungkus",
+      "image": "/portfolio/porto-25.png"
     }
 ]

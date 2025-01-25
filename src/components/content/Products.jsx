@@ -8,7 +8,7 @@ function Products() {
     <div className="categories bg-coklat py-10 px-4 bg-cover bg-center rounded-3xl" data-aos="fade-up"
     data-aos-duration="3000">
       <h1 className="text-center text-2xl md:text-3xl font-bold mb-8">
-        Temukan Packaging Yang Tepat Untuk Bisnis Anda
+       Temukan Packaging yang Tepat dengan Partner yang Tepat
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full max-w-screen-xl mx-auto">
         {categories.map((category, index) => (

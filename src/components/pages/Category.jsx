@@ -3,6 +3,7 @@ import products from "../../data/products.json";
 import { useParams, Link } from "react-router-dom";
 import Navbar from "../navbar";
 import Footer from "../footer";
+import WhatsappButton from "../content/WhatsappButton.jsx";
 
 function CategorySection() {
   return (
@@ -10,6 +11,7 @@ function CategorySection() {
       <Navbar />
       <Category />
       <Footer />
+      <WhatsappButton />
     </div>
   )
 }

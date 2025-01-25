@@ -2,12 +2,13 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import { Button } from "flowbite-react";
-import products from "../../data/products.json";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import Navbar from "../navbar";
 import Footer from "../footer";
+import WhatsappButton from "../content/WhatsappButton.jsx";
 import company from "../../data/company-profile.json";
+import products from "../../data/products.json";
 
 function ProductSection() {
   return(
@@ -15,6 +16,7 @@ function ProductSection() {
       <Navbar/>
       <Product/>
       <Footer/>
+      <WhatsappButton/>
     </div>
   )
 }

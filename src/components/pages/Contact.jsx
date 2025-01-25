@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import Navbar from '../navbar.jsx';
 import Footer from '../footer.jsx';
+import WhatsappButton from "../content/WhatsappButton.jsx";
 import data from '../../data/company-profile.json';
 
 function ContactSection() {
@@ -9,6 +10,7 @@ function ContactSection() {
       <Navbar />
       <Contact />
       <Footer />
+      <WhatsappButton />
     </div>
   );
 }
