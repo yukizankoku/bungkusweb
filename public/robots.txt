@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bungkusin.co.id/sitemap.xml
