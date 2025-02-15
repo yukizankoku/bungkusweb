@@ -86,5 +86,9 @@
     { 
       "id": 22,
       "image": "/factory/factory-22.jpeg"
+    },
+    { 
+      "id": 23,
+      "image": "/factory/factory-23.jpeg"
     }
 ]
